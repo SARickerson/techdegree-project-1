@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #999;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ nav {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/cat01.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 10%;
+  border: 1px solid white;
+  transition: all .1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotateY(3.142rad);
 }
 .tag {
   background-color: #efefef;
@@ -84,40 +84,35 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+.page {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+} 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #fff;
 }
-section {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
+
 section:hover {
-  border-color: #ff99ff;
+  border-color: #ffffff;
+}
+div {
+max-width: 350px;
+background: #999;
 }
 
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.border {
+  margin: 10px;
+  padding: 1em;
+  background: #fff;
 }
 
 footer {
@@ -191,6 +186,10 @@ a.social:hover {
   margin: 0 auto;
 }
 
+.caption{
+  text-align: center
+}
+
 .art-pictures {
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: flex; 
@@ -198,6 +197,20 @@ a.social:hover {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto;
+}
+
+.background {
+  border: solid;
+  margin: 10px;
+  padding: 1em;
+  background: #fff;
+}
+
+.goals {
+  border: solid;
+  margin: 10px;
+  padding: 1em;
+  background: #fff;  
 }
 
   header {
